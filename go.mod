@@ -1,4 +1,4 @@
-module github.com/rluisr/mysqlrouter-go
+module github.com/abelcabezas/mysqlrouter-go
 
 go 1.18
 
