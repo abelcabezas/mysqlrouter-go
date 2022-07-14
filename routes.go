@@ -104,7 +104,7 @@ func (c *Client) GetRouteHealth(rName string) (*RouteHealth, error) {
 	if err != nil {
 		return nil, err
 	}
-
+	fmt.Printf("GetRouteHealth health Check is : %v and error is: %v \n", b, err)
 	return rHealth, nil
 }
 
